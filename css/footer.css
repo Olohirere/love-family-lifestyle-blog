@@ -1,0 +1,66 @@
+footer{
+  margin-top: -75px;
+  background: var(--exDark);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+.social-links{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+.social-links a{
+  border: 2px solid #fff;
+  color: #fff;
+  display: block;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+.social-links a:hover{
+  background: #fff;
+  color: var(--exDark);
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.navbar-nav a{
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  }
+.banner-title{
+  font-size: 5rem;
+}
+.banner form{
+  margin-top: 1.4rem;
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.search-input{
+  padding: 0.8rem 0;
+  }
+.design-content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  }
+.design-item{
+  margin: 0;
+  }
+.blog-content{
+ display: flex;
+ gap: 2rem;
+}
+

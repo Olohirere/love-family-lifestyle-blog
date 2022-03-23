@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;300;400;900&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Quicksand:wght@300;400;500;600;700&family=Sacramento&family=Ubuntu&display=swap');
+@import url(mainblog.css);
+@import url(footer.css);
+@import url(design.css);
+
+:root{
+  --Playfair:'Playfair display', serif;
+  --Quicksand:'Quicksand', sans-serif;
+  --Montserrat: 'Montserrat',serif;
+  --Sacramento: 'Sacramento', sans-serif;
+  --dark:#3c393d;
+  --exDark:#2b2b2b
+}
+*{
+padding: 0;
+margin: 0;
+font-family: var(--Montserrat);
+}
+body{
+  line-height: 1.35;
+  color: var(--dark);
+}
+img{
+  width: 100%;
+  display: block;
+}
+#everything{
+  margin-top: -75px; 
+  height: 370px;
+}
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+header{
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../images/Family.jpg) center/cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+.family{
+  margin-top:-75px; 
+  height: 370px;
+}
+.lovestory{
+  width:400px;
+   height: 300px; 
+   object-fit: cover;
+}
+.navbar{
+  background: #333;
+  padding: 1.2rem;
+  font-size: 16px;
+}
+.navbar-brand{
+  color: #fff;
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family:var(--Sacramento);
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-style: bold;
+  
+}
+.navbar-brand span{
+  font-family: var(--Sacramento);
+  text-decoration: underline;
+}
+.navbar-nav{
+  padding: 0.8rem 0 0.2 0;
+  text-align: center;
+  
+}
+.navbar-nav a{
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  /* display: inline-block; */
+  padding: 0.4rem 0.1rem;
+  letter-spacing: 3px;
+  transition: opacity 0.5s ease;
+}
+.navbar-nav button{
+  font-family: 'Montserrat';
+  letter-spacing: 1px;
+  font-weight: 500;
+  background: grey;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4rem 0.1rem;
+  letter-spacing: 3px;
+  transition: opacity 0.5s ease;
+}
+.navbar-nav a:hover{
+  opacity: 0.7;
+}
+.navbar-nav button:hover{
+  background: rgb(138, 56, 56);
+}
+.banner{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  color: #fff;
+}
+.banner title{
+  font-size: 3rem;
+  font-family: var(--Playfair);
+  line-height:1.2;
+}
+.banner-title span{
+  color: red;
+}
+.banner p{
+  padding: 1rem 0 2rem 0;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 300;
+  word-spacing: 2px;
+}
+.banner form{
+  background: #fff;
+  border-radius: 2rem;
+  padding: 0.6rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.search-input{
+  font-family: var(--Montserrat);
+  font-size: 1.1rem;
+  width: 100%;
+  outline: 0;
+  padding: 0.6rem 0;
+  border: none;
+}
+.search-input ::placeholder{
+  text-transform: capitalize;
+}
+.search-btn{
+  width: 40px;
+  font-size: 1.1rem;
+  border:none;
+  background: transparent;
+  outline: 0;
+  cursor: pointer;
+  color: var(--dark);
+}
+.design{
+  padding: 4.5rem 0;
+ 
+}
+.title{
+  text-align: center;
+  padding: 1rem 0;
+}
+.title h2{
+  font-family: var(--Playfair);
+  font-size: 2.4rem;
+}
+.title p{
+  text-transform: capitalize;
+  padding: 0.6rem 0;
+}
+figcaption{
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+
+ }
+ 
+
